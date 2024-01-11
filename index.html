@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>ALARM</title>
+
+</head>
+<body>
+
+<header>
+    <h1>현재시간</h1>
+    <div class="battery"></div>
+</header>
+
+<hr>
+
+<section class="date_time_container">
+    <div class="date"></div>
+    <div class="time"></div>
+</section>
+
+<section class="alarm">
+    <span>알람현황</span>
+    <div class="content"></div>
+
+    <input type="button" value="알람삭제" onclick="deleteAlarm();"/>
+    <input type="button" value="알람추가" onclick="addAlarm();"/>
+</section>
+
+<script src="alarm.js"></script>
+</body>
+</html>

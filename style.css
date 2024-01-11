@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html {
+    background : #EAEDF4;
+}
+
+body {
+    height : 500px;
+    width : 800px;
+    margin : 0 auto;
+}
+
+header {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+
+    padding : 20px;
+    height : 30px;
+}
+
+h1 {
+    font-size : 25px;
+}
+
+.battery {
+    border : 1px solid #97A6D3;
+    width : 100px;
+    padding : 5px;
+    background : #D8DFF3;
+}
+
+.date_time_container {
+    display : block;
+    padding : 30px;
+}
+
+.date {
+    font-size : 20px;
+}
+
+.time {
+    font-family: 'Poppins', sans-serif;
+    font-size : 50px;
+    text-align : center;
+    color : white;
+
+    padding : 50px 0;
+    background : #B1C0DC;
+}
+
+.alarm {
+    padding : 30px;
+
+}
+
+span {
+    font-size : 20px;
+}
+
+.content {
+    padding : 10px;
+    line-height :30px;
+    height : 200px;
+    background : #B1C0DC;
+
+    color : white;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    float : right;
+    margin : 10px;
+    width : 100px;
+    height : 30px;
+
+    background : #B1C0DC;
+    border : none;
+    cursor : pointer;
+    font-size : 15px;
+    color : white;
+    border-radius : 0.3em;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+input:hover {
+    background : #B4BCCB;
+}
+
+input:active {
+    opacity : 0.7;
+}
