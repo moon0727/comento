@@ -1,0 +1,92 @@
+body {
+    display : flex;
+    flex-direction : row;
+
+    height : 630px;
+    width : 800px;
+    margin : auto;
+
+}
+
+h1 {
+    font-size : 25px;
+    text-align : center;
+}
+
+.calculator {
+    width : 400px;
+    display : flex;
+    flex-direction : column;
+
+    background : #F5F9E9;
+    border : 1px solid black;
+}
+
+.history {
+    width : 400px;
+    border : 1px solid black;
+    background : #F5F9E9;
+}
+
+.container {
+    background : #EAF3D4;
+    border-top : 1px solid black;
+}
+
+.content {
+    font-size : 25px;
+    line-height :30px;
+    text-decoration-line: underline;
+    height : 510px;
+    padding : 10px;
+    margin : 10px;
+    color : white;
+    overflow : scroll;
+    background : #CFD5BF;
+}
+
+.screen {
+    display : flex;
+    flex-direction : column;
+    height : 120px;
+    margin : 10px;
+
+    letter-spacing : 2px;
+    background : #CFD5BF;
+}
+
+.calcScreen {
+    text-align : right;
+    font-size : 50px;
+
+    height : 100%;
+    margin : 5px;
+    background : #F5F9E9;
+}
+
+
+.buttons {
+    display : grid;
+    grid-template-columns : repeat(4, 1fr);
+    grid-template-rows : repeat(6, 55px);
+
+    grid-gap : 10px;
+    margin : 0px 10px 10px 10px;
+    padding : 10px;
+
+    text-align : center;
+
+    background : #CFD5BF;
+}
+
+button {
+    font-size : 18px;
+    background : #F5F9E9;
+    border-radius : 0.3em;
+    cursor : pointer;
+    border : none;
+    box-shadow: 1px 1px 1px 1px gray;
+}
+button:hover {
+    background : #E0E8D2;
+}

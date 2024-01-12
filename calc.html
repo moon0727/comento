@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+
+<body>
+<section class="calculator">
+    <h1>CALCULATOR</h1>
+
+    <div class="container">
+        <div class="screen">
+            <div class="calcScreen"></div>
+        </div>
+        <div class="buttons">
+            <button onclick="percentage()">%</button>
+            <button onclick="deleteOperand()">CE</button>
+            <button onclick="deleteAll()">C</button>
+            <button>Back</button>
+
+            <button onclick="fraction()">1/𝒳</button>
+            <button onclick="square()">𝒳<sup>2</sup></button>
+            <button onclick="sqrt()">√𝒳</button>
+            <button value="/" onclick="getOperator(this.value)">÷</button>
+
+            <button value="7" onclick="getNumber(this.value)">7</button>
+            <button value="8" onclick="getNumber(this.value)">8</button>
+            <button value="9" onclick="getNumber(this.value)">9</button>
+            <button value="*" onclick="getOperator(this.value)">x</button>
+
+            <button value="4" onclick="getNumber(this.value)">4</button>
+            <button value="5" onclick="getNumber(this.value)">5</button>
+            <button value="6" onclick="getNumber(this.value)">6</button>
+            <button value="-" onclick="getOperator(this.value)">-</button>
+
+            <button value="1" onclick="getNumber(this.value)">1</button>
+            <button value="2" onclick="getNumber(this.value)">2</button>
+            <button value="3" onclick="getNumber(this.value)">3</button>
+            <button value="+" onclick="getOperator(this.value)">+</button>
+
+            <button onclick="positiveNegative()">+/-</button>
+            <button value="0" onclick="getNumber(this.value)">0</button>
+            <button value="." onclick="getNumber(this.value)">.</button>
+            <button onclick="calculate()">=</button>
+        </div>
+    </div>
+</section>
+<section class="history">
+    <h1>HISTORY</h1>
+    <hr>
+    <div class="content"></div>
+</section>
+<script src="calc.js"></script>
+</body>
+</html>
