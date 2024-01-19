@@ -1,0 +1,57 @@
+body {
+    height : 700px;
+    width : 600px;
+    margin : 0 auto;
+    background : #F7F7FF;
+}
+
+header {
+    background : #D8D8F6;
+}
+
+h1 {
+    text-align : center;
+    padding-top : 10px;
+    color : white;
+
+}
+
+.topSection {
+    height : 30px;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    padding : 10px;
+}
+
+input {
+    outline : none;
+}
+
+.content {
+    background : #F2F2FE;
+}
+
+.list {
+    width : 90%;
+    height : 500px;
+    padding : 5%;
+}
+
+ul {
+    list-style : none;
+    padding-left : 0px;
+}
+
+li {
+    margin : 20px 0px;
+}
+
+button {
+    margin : 10px;
+    width : 50px;
+    height : 20px;
+    color : #C2C2F1;
+    background : white;
+    border : none;
+}
